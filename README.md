@@ -1,6 +1,6 @@
 # graphify-chokidar
 
-Keep your [graphify](https://github.com/yetanotheraryan/graphify) knowledge graph fresh — automatically, without burning tokens.
+Keep your [graphify](https://github.com/safishamsi/graphify) knowledge graph fresh — automatically, without burning tokens.
 
 ```
 ◆ watching . — ignoring graphify-out/ node_modules/
