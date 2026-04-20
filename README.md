@@ -20,8 +20,10 @@ Keep your [graphify](https://github.com/yetanotheraryan/graphify) knowledge grap
 
 ## Why
 
-`graphify` builds a knowledge graph from your codebase. But re-running it manually after every change is friction. `graphify-chokidar` watches your project and rebuilds the graph on save — and it's smart about when to ask before spending tokens.
+`graphify` builds a knowledge graph from your codebase. But re-running it manually after every change is friction. `graphify-chokidar` handles all of that — including the very first build.
 
+**No graph yet?** Save any file and it builds one from scratch.  
+**Graph already exists?** It updates only what changed.  
 **Code change** (`.ts`, `.py`, `.go`, …) → rebuilds instantly, no prompt, no LLM call.  
 **Doc/media change** (`.md`, `.pdf`, `.png`, …) → asks first, then rebuilds with LLM.
 
