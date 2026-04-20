@@ -1,6 +1,6 @@
 # graphify-chokidar
 
-Keep your [graphify](https://github.com/yetanotheraryan/graphify) knowledge graph fresh — automatically, without burning tokens.
+Keep your [graphify](https://github.com/safishamsi/graphify) knowledge graph fresh — automatically, without burning tokens.
 
 ```
 ◆ watching . — ignoring graphify-out/ node_modules/
@@ -20,8 +20,10 @@ Keep your [graphify](https://github.com/yetanotheraryan/graphify) knowledge grap
 
 ## Why
 
-`graphify` builds a knowledge graph from your codebase. But re-running it manually after every change is friction. `graphify-chokidar` watches your project and rebuilds the graph on save — and it's smart about when to ask before spending tokens.
+`graphify` builds a knowledge graph from your codebase. But re-running it manually after every change is friction. `graphify-chokidar` handles all of that — including the very first build.
 
+**No graph yet?** Save any file and it builds one from scratch.  
+**Graph already exists?** It updates only what changed.  
 **Code change** (`.ts`, `.py`, `.go`, …) → rebuilds instantly, no prompt, no LLM call.  
 **Doc/media change** (`.md`, `.pdf`, `.png`, …) → asks first, then rebuilds with LLM.
 
@@ -117,9 +119,12 @@ Adjust with `--debounce <ms>` to match how fast your editor flushes writes.
 **Install for Claude Code:**
 
 ```bash
+# Install globally first (if not already)
+npm install -g graphify-chokidar
+
 # Copy SKILL.md into Claude's skills directory
 mkdir -p ~/.claude/skills/graphify-chokidar
-cp node_modules/graphify-chokidar/SKILL.md ~/.claude/skills/graphify-chokidar/SKILL.md
+cp "$(npm root -g)/graphify-chokidar/SKILL.md" ~/.claude/skills/graphify-chokidar/SKILL.md
 ```
 
 Then in any Claude Code session:
