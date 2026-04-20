@@ -1,17 +1,14 @@
 {
-    "compilerOptions": {
-        "strict": true,
-        "noImplicitAny": true,
-        "esModuleInterop": true,
-        "strictNullChecks": true,
-        "target": "ES2022",
-        "module": "CommonJS",
-        "declaration": true,
-        "ignoreDeprecations": "6.0",
-        "isolatedModules": true,
-        "noEmit": true,
-        "outDir": "dist"
-    },
-    "include": ["src"],
-    "exclude": ["node_modules"]
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true
+  },
+  "include": ["src/**/*"]
 }
