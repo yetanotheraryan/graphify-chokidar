@@ -37,6 +37,12 @@ If a new change arrives mid-build, the previous build is cancelled and a fresh o
 npm install -g graphify-chokidar
 ```
 
+Or run without installing:
+
+```bash
+npx graphify-chokidar
+```
+
 Requires `graphify` to be installed and on your `$PATH`.
 
 ---
@@ -50,8 +56,8 @@ graphify-chokidar
 # Watch a specific path
 graphify-chokidar ./src
 
-# Custom debounce (wait 500ms after last change)
-graphify-chokidar --debounce 500
+# Custom debounce (wait 5000ms after last change)
+graphify-chokidar --debounce 5000
 
 # Suppress all output except errors
 graphify-chokidar --silent
