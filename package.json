@@ -11,7 +11,19 @@
   "scripts": {
     "build": "tsup"
   },
-  "keywords": [],
+  "keywords": [
+    "graphify",
+    "knowledge-graph",
+    "chokidar",
+    "file-watcher",
+    "claude",
+    "claude-code",
+    "ai",
+    "llm",
+    "graph",
+    "codebase",
+    "incremental"
+  ],
   "bin": {
     "graphify-chokidar": "./dist/index.js"
   },
