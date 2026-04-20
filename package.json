@@ -4,7 +4,7 @@
   "description": "Keeps your graphify knowledge graph fresh without burning tokens.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "build": "tsup"
   },
   "keywords": [],
   "author": "aryantiwari91000@gmail.com",

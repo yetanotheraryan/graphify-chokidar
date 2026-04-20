@@ -1,0 +1,1 @@
+console.log("Hello, Graphify Chokidar! This is a placeholder for the main functionality of the project.");
