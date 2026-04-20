@@ -119,9 +119,12 @@ Adjust with `--debounce <ms>` to match how fast your editor flushes writes.
 **Install for Claude Code:**
 
 ```bash
+# Install globally first (if not already)
+npm install -g graphify-chokidar
+
 # Copy SKILL.md into Claude's skills directory
 mkdir -p ~/.claude/skills/graphify-chokidar
-cp node_modules/graphify-chokidar/SKILL.md ~/.claude/skills/graphify-chokidar/SKILL.md
+cp "$(npm root -g)/graphify-chokidar/SKILL.md" ~/.claude/skills/graphify-chokidar/SKILL.md
 ```
 
 Then in any Claude Code session:
