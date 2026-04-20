@@ -1,6 +1,6 @@
 {
   "name": "graphify-chokidar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Keeps your graphify knowledge graph fresh without burning tokens.",
   "main": "./dist/index.js",
   "files": ["dist", "SKILL.md", "README.md"],
