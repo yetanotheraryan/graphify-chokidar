@@ -3,7 +3,11 @@
   "version": "0.1.1",
   "description": "Keeps your graphify knowledge graph fresh without burning tokens.",
   "main": "./dist/index.js",
-  "files": ["dist", "SKILL.md", "README.md"],
+  "files": [
+    "dist",
+    "SKILL.md",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup"
   },
