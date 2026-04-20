@@ -1,6 +1,13 @@
-# graphify-chokidar
+<p align="center">
+  <img src="./assets/logo.svg" width="400" alt="graphify-chokidar" />
+</p>
 
-Keep your [graphify](https://github.com/safishamsi/graphify) knowledge graph fresh — automatically, without burning tokens.
+<h1 align="center">graphify-chokidar</h1>
+
+<p align="center">
+  Keeps your [graphify](https://github.com/safishamsi/graphify)knowledge graph fresh without burning tokens.
+</p>
+
 
 ```
 ◆ watching . — ignoring graphify-out/ node_modules/
