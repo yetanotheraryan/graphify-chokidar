@@ -1,0 +1,16 @@
+{
+  "name": "graphify-chokidar",
+  "version": "0.1.0",
+  "description": "Keeps your graphify knowledge graph fresh without burning tokens.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "aryantiwari91000@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}
