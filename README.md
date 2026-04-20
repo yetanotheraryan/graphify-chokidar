@@ -2,7 +2,6 @@
   <img src="./assets/logo.svg" width="400" alt="graphify-chokidar" />
 </p>
 
-<h1 align="center">graphify-chokidar</h1>
 
 <p align="center">
   Keeps your [graphify](https://github.com/safishamsi/graphify)knowledge graph fresh without burning tokens.
