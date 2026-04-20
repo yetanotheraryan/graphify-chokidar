@@ -6,7 +6,8 @@
   "files": [
     "dist",
     "SKILL.md",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsup"
